@@ -26,18 +26,20 @@ body {
 
 .header h2 {
   font-size: 24px;
-  font-weight: 900;
+  font-weight: 350;
   margin: 0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); /* 입체 효과 */
 }
 
 .header .add-link {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
   color: white;
   text-decoration: none;
   border-bottom: 2px solid white;
   padding-bottom: 2px;
   cursor: pointer;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); /* 입체 효과 */
 }
 
 .header .add-link:hover {
