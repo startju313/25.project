@@ -1,0 +1,123 @@
+/* Global Settings */
+body {
+  font-family: sans-serif;
+  background: #000;
+  margin: 0;
+  padding: 40px;
+}
+
+/* Main container */
+.container {
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  background: #ea6d78;
+  padding: 30px;
+  color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Header Section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h2 {
+  font-size: 24px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.header .add-link {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid white;
+  padding-bottom: 2px;
+  cursor: pointer;
+}
+
+.header .add-link:hover {
+  color: #ffefff;
+}
+
+/* Button Styles */
+button {
+  background: #03a9f4;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* List Styles */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #b4dae5;
+  color: #000;
+  margin-top: 12px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15); /* 입체감 */
+}
+
+li:hover {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+/* Todo Text */
+.todo-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+}
+
+/* List item button */
+li button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Custom Checkbox */
+.custom-checkbox {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #aaa;
+  background-color: white;
+  margin-right: 8px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.custom-checkbox.checked {
+  background-color: black;
+}
+
+/* Icon Styles */
+button i {
+  font-size: 20px;
+  color: #bb4666;
+}
+
+.todo-actions button i {
+  color: #bb4666;
+  font-size: 18px;
+}
